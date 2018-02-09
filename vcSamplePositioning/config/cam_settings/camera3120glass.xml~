@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<conf>
+	<ecm>
+		<mask>
+			<size>5</size>
+			<nb_mask>180</nb_mask>
+		</mask>
+		<range>
+			<tracking>7</tracking>
+		</range>
+		<contrast>
+			<edge_threshold>5000</edge_threshold>
+			<mu1>0.5</mu1>
+			<mu2>0.5</mu2>
+		</contrast>
+	</ecm>
+	<sample>
+		<step>4</step>
+		<nb_sample>250</nb_sample>
+	</sample>
+	<camera>
+	    <name>Camera</name>
+	    <width>1600</width>
+	    <height>1200</height>
+	    <type>perspectiveProjWithDistortion</type>
+	    <u0>859.9466195558</u0>
+	    <v0>674.8777485039</v0>
+	    <px>-2028.477518</px>
+	    <py>-2018.792788</py>
+	    <kud>-0.1666284043</kud>
+	    <kdu>0.1717025423</kdu>
+	         
+	  </camera>
+	<face>
+		<angle_appear>65</angle_appear> 
+		<angle_disappear>75</angle_disappear>
+		<near_clipping>0.01</near_clipping>
+		<far_clipping>0.90</far_clipping>
+		<fov_clipping>1</fov_clipping>
+	</face>
+	<klt>
+		<mask_border>5</mask_border> 
+  		<max_features>10000</max_features> 
+  		<window_size>5</window_size> 
+  		<quality>0.01</quality> 
+  		<min_distance>5</min_distance> 
+  		<harris>0.01</harris>
+		<size_block>3</size_block> 
+  		<pyramid_lvl>3</pyramid_lvl> 
+	</klt>
+</conf>
+

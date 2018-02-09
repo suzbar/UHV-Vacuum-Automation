@@ -1,0 +1,70 @@
+ <!--Intrinsic camera parameters computed for each projection model-->
+<camera>
+	<name>camera3120</name>
+	<width>1600</width>
+	<height>1200</height>
+	<type>perspectiveProjWithoutDistortion</type>
+	<u0>875.0943274183</u0>
+     	<v0>659.6646407026</v0>
+      	<px>1999.5794014220</px>
+      	<py>1997.8587163336</py> 	
+</camera>
+<camera>
+	    <name>Camera3120</name>
+	    <width>1600</width>
+	    <height>1200</height>
+	    <type>perspectiveProjWithDistortion</type>
+	    <u0>859.9466195558</u0>
+	    <v0>674.8777485039</v0>
+	    <px>1900.2692670519</px>
+	    <py>1896.0721789832</py>
+	    <kud>-0.1666284043</kud>
+	    <kdu>0.1717025423</kdu>
+</camera>
+
+ <camera>
+    	<name>Camera3160</name>
+    	<width>1600</width>
+    	<height>1200</height>
+      	<type>perspectiveProjWithoutDistortion</type>
+      	<u0>834.6231502987</u0>
+      	<v0>619.1880376285</v0>
+      	<px>1863.2970379925</px>
+      	<py>1866.1509006217</py>
+</camera>
+<camera>
+	<name>Camera3160</name>
+    	<width>1600</width>
+    	<height>1200</height>
+      	<type>perspectiveProjWithDistortion</type>
+	<u0>850.0579491610</u0>
+      	<v0>630.6461070243</v0>
+      	<px>1880.6779620162</px>
+      	<py>1879.7221043429</py>
+      	<kud>-0.1275251934</kud>
+      	<kdu>0.1320738665</kdu>
+</camera>
+<camera>
+	<name>Camera2120</name>
+    	<width>1600</width>
+    	<height>1200</height>
+	<type>perspectiveProjWithDistortion</type>
+	<u0>821.4144636967</u0>
+	<v0>578.4466109997</v0>
+	<px>1827.6185816661</px>
+	<py>1822.2048630185</py>
+	<kud>-0.1104857098</kud>
+	<kdu>0.1139880240</kdu>
+</camera>
+<camera>
+	<name>Camera2160</name>
+    	<width>1600</width>
+    	<height>1200</height>
+	<type>perspectiveProjWithDistortion</type>
+	<px>2029.5869776753</px>
+	<py>2023.3913667697</py>
+	><u0>781.5452433185</u0>
+	<v0>574.7074716525</v0>
+	<kud>-0.2165544591</kud>
+	<kdu>0.2290660631</kdu>
+</camera>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+  <camera>
+    <name>Camera3</name>
+    <width>1600</width>
+    <height>1200</height>
+      <type>perspectiveProjWithoutDistortion</type>
+      <u0>834.6231502987</u0>
+      <v0>619.1880376285</v0>
+      <px>1863.2970379925</px>
+      <py>1866.1509006217</py>
+</camera>
+<camera>
+	<name>Camera3</name>
+    	<width>1600</width>
+    	<height>1200</height>
+      	<type>perspectiveProjWithDistortion</type>
+	<u0>850.0579491610</u0>
+      	<v0>630.6461070243</v0>
+      	<px>1880.6779620162</px>
+      	<py>1879.7221043429</py>
+      	<kud>-0.1275251934</kud>
+      	<kdu>0.1320738665</kdu>
+</camera>

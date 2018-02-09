@@ -1,0 +1,2 @@
+/home/szb/projects/vcSamplePositioningAppQt5/build/CMakeFiles/vcSamplePositioningApp.dir
+/home/szb/projects/vcSamplePositioningAppQt5/build/CMakeFiles/vcSamplePositioningApp_automoc.dir
